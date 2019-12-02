@@ -5,3 +5,87 @@ html, body {
   line-height: 24px;
   background-color: #f5f5f5;
 }
+
+.login{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+img{
+  background-color: #EBD0D3;
+  width: 500px;
+}
+
+.container{
+ 
+}
+
+.formul{
+  display: flex;
+  flex-direction: column;  
+ 
+}
+
+.title{
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.sub-title{
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.label{
+ 
+}
+
+.actions{
+  border-color: #DBDBDB;
+}
+
+.actions:hover{
+  border-color: #B5B5B5;
+}
+
+.actions:focus{
+  border-color: #3273DC;
+}
+
+.actions:invalid{
+  border-color: #FF0000;
+}
+
+.actions:valid{
+  border-color: #00D1B2;
+}
+
+.registrer{
+  background-color: #00D1B2;
+  height: 40px;
+}
+
+.registrer:hover{
+  background-color: #00C4A7;
+}
+
+.registrer:active{
+  background-color: #00B89C;
+}
+
+.checkbox{
+ 
+}
+.link{
+  color:#3273DC;
+}
+
+.link:hover{
+  color: #363636;
+}
+
+.small{
+  
+}

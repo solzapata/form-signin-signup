@@ -23,10 +23,9 @@ img{
 .container{
   padding: 30px;
   background-color: #f5f5f5;
-  border-radius: 5px;
 }
 
-.formul{
+.signup{
   display: flex;
   flex-direction: column;   
 }
@@ -49,10 +48,6 @@ input{
   margin: 5px 0px;
 }
 
-.label{
- 
-}
-
 .actions{
   border-color: #DBDBDB;
 }
@@ -65,7 +60,7 @@ input{
   border-color: #3273DC;
 }
 
-.actions:invalid{
+.actions:valid:not(:placeholder-shown){
   border-color: #FF0000;
 }
 
@@ -86,19 +81,12 @@ input{
   background-color: #00B89C;
 }
 
-.checkbox{
- 
-}
 .link{
   color:#3273DC;
 }
 
 .link:hover{
   color: #363636;
-}
-
-.small{
-  
 }
 
 button{
